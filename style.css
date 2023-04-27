@@ -1,9 +1,8 @@
-body {overflow-x: hidden; background-color: blueviolet;}
+body {overflow-x: hidden; background-image: url("https://raw.githubusercontent.com/alianski/komendyCommandCraft/main/minecraft%20dirt%20background.png");}
 * {padding: 0px;
 margin: 0px;}
 #buttons{
     padding: 20px;
-    background-color: blueviolet;
     height: max-content;
 }
 #commands{
@@ -14,7 +13,7 @@ margin: 0px;}
     width: 10000px;
     height: 100000px;
     z-index: 2;
-    background-color: bisque;
+    background-color: rgb(208, 143, 64);
 }
 .commandText {
     position: relative;
@@ -36,6 +35,7 @@ margin: 0px;}
     font-size: 50px;
     height: 100px;
     width: 560px;
+    color: rgb(48, 196, 43);
 }
 .button {
     font-size: 25px;
@@ -43,7 +43,7 @@ margin: 0px;}
     width: max-content;
     height: 25px;
     position: relative;
-    background-color: bisque;
+    background-color: rgb(208, 143, 64);
 }
 .button:hover {
     animation-name: example;
@@ -52,10 +52,10 @@ margin: 0px;}
     animation-direction: alternate;
 }
 @keyframes example {
-    from {background-color: bisque;
+    from {background-color: rgb(208, 143, 64);
     font-size: 25px;
     height: 25px;}
-    to {background-color: rgb(232, 172, 99);
+    to {background-color: rgb(48, 196, 43);
     font-size: 30px;
     height: 30px;}
   }
