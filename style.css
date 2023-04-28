@@ -1,4 +1,4 @@
-body {overflow-x: hidden; background-image: url("https://raw.githubusercontent.com/alianski/komendyCommandCraft/main/minecraft%20dirt%20background.png");}
+body { background-image: url("https://raw.githubusercontent.com/alianski/komendyCommandCraft/main/minecraft%20dirt%20background.png");}
 * {padding: 0px;
 margin: 0px;}
 #buttons{
@@ -10,7 +10,7 @@ margin: 0px;}
     position: absolute;
     left: -1000000px;
     top: 0px;
-    width: 10000px;
+    width: max-content;
     height: 100000px;
     z-index: 2;
     background-color: rgb(208, 143, 64);
